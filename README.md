@@ -3018,6 +3018,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [itsbuyru-bit/dsh-model-price](https://github.com/itsbuyru-bit/dsh-model-price) — Per-model API prices in USD or CNY, wallet balance and live session spend for DeepSeek Harness.
 - [xyl886/dsh-key-usage](https://github.com/xyl886/dsh-key-usage) — Usage panel in the DSH sidebar: per-channel detail, a yearly heatmap, per-project / per-session usage and balance-quota snapshots — fully local, read-only, no network.
 - [LzdqesjG/dsh-your-balance](https://github.com/LzdqesjG/dsh-your-balance) — Balance checker plus a per-turn, balance-aware power-saving policy for DeepSeek Harness.
+- [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) — Project spend meter: money spent per workspace directory from session token usage, priced against the routerai.ru public model catalog, with workspace badges and a costs panel.
 
 ## Channel / IM Bridges
 
@@ -3484,6 +3485,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [guraul/self-dsh-plugins](https://github.com/guraul/self-dsh-plugins) — Collection of self-built DeepSeek Harness (dsh) plugins — currently dsh-auto-upgrade: Web UI update detection with compatibility pre-checks and one-click backup / install / verify / restart.
 - [TowardsDawn/dsh-plugin-source-link](https://github.com/TowardsDawn/dsh-plugin-source-link) — Adds a plugin-source block to every plugin detail page in the DSH plugin panel: it infers the GitHub repo URL or local path, with a manual override saved per profile.
 - [nuolingmo/dsh-market-notes](https://github.com/nuolingmo/dsh-market-notes) — Auto-writes short plain-Chinese notes for installed dshmarket plugins that have none.
+- [westtrade/dsh-plugin-showcase](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-plugin-showcase) — Plugin showcase: a catalog page of community DSH plugins with images, descriptions, stars and GitHub links, plus install/remove buttons that run dsh plugin add for you.
 
 ## Visualization
 
@@ -3750,6 +3752,7 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [alccs/dsh-visual-intelligence-engine](https://github.com/alccs/dsh-visual-intelligence-engine) — Visual plugin for DeepSeek Harness: interactive graphics with native prose, structured input, local repair and shared controls.
 - [weimin96/diagram-plugin](https://github.com/weimin96/diagram-plugin) — Create, view and edit Mermaid diagrams and Canvas boards in DeepSeek Harness / Codex.
 - [Natsubrei/dsh-comfyui-panel](https://github.com/Natsubrei/dsh-comfyui-panel) — The real ComfyUI editor inside the DeepSeek Harness Web UI: per-session workflow tools and a panel-managed ComfyUI.
+- [westtrade/dsh-excalidraw](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-excalidraw) — Excalidraw board per chat in the right sidebar, with one shared template library and excalidraw_read/excalidraw_write tools so the agent draws on the same board.
 
 ## Slides / PPT
 
@@ -4623,6 +4626,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [Weidows/dsh-whalechan-herself](https://github.com/Weidows/dsh-whalechan-herself) — A whale-girl (DeepSeek-chan) agent preset: full working ability plus a persona that grumbles when work starts and asks for food when it ends, with sticker probability adjustable in Settings.
 - [Yangxingyu789/dsh-doubt](https://github.com/Yangxingyu789/dsh-doubt) — Evidence-first completion guard: a pre-execution live-mutation gate, tool-evidence review of final answers and verify_claims — real measurements instead of "are you sure?".
 - [jidekaixin2dian/dsh-team-flow](https://github.com/jidekaixin2dian/dsh-team-flow) — Team interjection helper for DSH Agent Teams: steer while teammates keep running during waits (alpha).
+- [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) — Goals vectors: named, priority-ordered goal lists a chat adopts so the model follows them for the whole session, with a management page, a composer picker and goal_vector_* tools.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -4957,6 +4961,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [Leawind/dsh-rice-on-a-stick](https://github.com/Leawind/dsh-rice-on-a-stick) — A DSH plugin that lets agents control DSH itself through MCP or DSH's built-in tools.
 - [MuyuYanran/dsh-rea-mcp-lite](https://github.com/MuyuYanran/dsh-rea-mcp-lite) — Packs REA's reverse-engineering MCP tools into on-demand function families: a few meta-tools up front, the rest searchable and callable at any time, saving most tool context; families hot-swap without restarting DSH, with built-in update and health checks.
 - [zhujiuyi/dsh-mcpserver-manager](https://github.com/zhujiuyi/dsh-mcpserver-manager) — DSH MCP Server Manager.
+- [westtrade/svelte-mcp-local](https://github.com/westtrade/deepseek-harness-plugins/tree/main/svelte-mcp-local) — Svelte documentation MCP server with a local cache: the same four tools as @sveltejs/mcp, but docs come from disk instead of svelte.dev on every call.
 
 ## Tools & Integrations
 
@@ -5288,6 +5293,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [Nesarf/dsh-shell-surfaces](https://github.com/Nesarf/dsh-shell-surfaces) — The machine's non-pwsh execution surfaces as one DSH tool: a WSL Linux userland, nushell structured pipelines, the MSYS2 userland (bash/zsh/fish/brush) and a real console for interactive programs.
 - [Pegasus-Yang/DSH-Test-Plugin](https://github.com/Pegasus-Yang/DSH-Test-Plugin) — Testing inside the current DSH conversation: test planning, UI/API actions, evidence capture, deterministic assertions and report generation.
 - [zhonglike/dsh-bot](https://github.com/zhonglike/dsh-bot) — Multi-zone professional model routing plugin for DeepSeek Harness (Cordis).
+- [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) — Moleculer integration: joins a Moleculer mesh, publishes every service as a model tool, exposes the same set over MCP and reports service joins, leaves and changes to the running model.
 
 ## Orchestrators & Aggregators
 
@@ -5520,6 +5526,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [pj1433139082-hue/agent-dispatch](https://github.com/pj1433139082-hue/agent-dispatch) — File-first task orchestration and dispatch CLI: ticket contracts, dependency waves, work-order rendering and an evidence gate, with real DSH task-board push, status read-back and external result write-back.
 - [TheFool-TAROT/dsh-brain-hands](https://github.com/TheFool-TAROT/dsh-brain-hands) — Brain + Hands for DeepSeek Harness: one orchestrator model plans while named hands run on their own (often free) models, with auto-injected shared project state and verified hand output.
 - [1225Sakura/oh-my-deepseekharness](https://github.com/1225Sakura/oh-my-deepseekharness) — Multi-agent orchestration layer for DeepSeek Harness — 42 skills, 33 role cards, 55 MCP tools, a graph DAG runtime, team pipelines and a HUD panel; a dsh-native take on the OMC/OMX idea.
+- [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) — Scheduled AI runs: at a set time a new chat is created in a chosen directory and receives the task, with cron presets, per-task model, missed-run handling and cron_* tools for the model.
 
 ## UI / Clients
 
@@ -7621,6 +7628,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [zeusxx/dsh-composer-live](https://github.com/zeusxx/dsh-composer-live) — Live Markdown rendering and typing enhancements for the DSH web composer: syntax-highlighted code blocks, list/quote continuation and format toolbars.
 - [ZIye1208/dsh-settings-nav-manager](https://github.com/ZIye1208/dsh-settings-nav-manager) — DSH settings navigation manager: drag-to-sort, show/hide, drawer grouping and sidebar entries, so frequently used sections are one click away.
 - [zoujiapeng/oppo-watch-ai](https://github.com/zoujiapeng/oppo-watch-ai) — A liquid-glass crystal ball that floats on the desktop as a local DSH front end: double-click to talk, two-finger long-press to type, answers typed into the ball; plus three single-file WebGL/GLSL glass experiments.
+- [westtrade/deepseek-desktop](https://github.com/westtrade/deepseek-harness-plugins/tree/main/deepseek-desktop) — Desktop window for DSH on Neutralinojs: boots dsh --profile web, hides to the tray on close, and keeps a single instance instead of opening a second window.
 
 ## Skills
 
